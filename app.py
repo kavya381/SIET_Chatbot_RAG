@@ -34,6 +34,6 @@ def initiate_rag():
                 st.write(answer)
                 
                 if st.button("Clear chat"):
-                st.session_state.chat_hist = []
-                st.rerun()
+                   st.session_state.chat_hist = []
+                   st.rerun()
   

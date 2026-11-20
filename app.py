@@ -7,6 +7,7 @@ st.caption("Created by Kavya MP")
 
 mykey = st.secrets["GROQ_API_KEY"]
 
+
 def initiate_rag():
   return load_base("01_College_Information.pdf")
   
